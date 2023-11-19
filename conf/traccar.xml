@@ -26,7 +26,7 @@
 
     <entry key='web.port'>__PORT__</entry>
     
-    <entry key='media.path '>__DATA_DIR__</entry>
+    <entry key='media.path'>__DATA_DIR__</entry>
 
     <entry key='mail.smtp.host'>localhost</entry>
     <entry key='mail.smtp.port'>25</entry>
