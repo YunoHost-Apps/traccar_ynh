@@ -20,13 +20,13 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 
 ### Features
 
-    Real-time GPS tracking
-    Driver behaviour monitoring
-    Detailed and summary reports
-    Geofencing functionality
-    Alarms and notifications
-    Account and device management
-    Email and SMS support
+- Real-time GPS tracking
+- Driver behaviour monitoring
+- Detailed and summary reports
+- Geofencing functionality
+- Alarms and notifications
+- Account and device management
+- Email and SMS support
 
 
 **Shipped version:** 5.9~ynh1

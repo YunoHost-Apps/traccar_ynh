@@ -20,13 +20,14 @@ Traccar est un système de suivi GPS open source. Il prend en charge plus de 200
 
 ### Caractéristiques
 
-     Suivi GPS en temps réel
-     Surveillance du comportement des conducteurs
-     Rapports détaillés et synthétiques
-     Fonctionnalité de géolocalisation
-     Alarmes et notifications
-     Gestion des comptes et des appareils
-     Assistance par e-mail et SMS
+- Suivi GPS en temps réel
+- Surveillance du comportement des conducteurs
+- Rapports détaillés et synthétiques
+- Fonctionnalité de géolocalisation
+- Alarmes et notifications
+- Gestion des comptes et des appareils
+- Assistance par e-mail et SMS
+
 
 **Version incluse :** 5.9~ynh1
 
