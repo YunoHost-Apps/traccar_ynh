@@ -29,7 +29,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=1
 
 	# Download, check integrity, uncompress and patch the source from manifest.toml
-	ynh_setup_source --dest_dir="$install_dir"
+	ynh_setup_source --dest_dir="$install_dir" --keep="conf/traccar.xml"
 fi
 
 chown -R $app:www-data "$install_dir"
@@ -53,10 +53,10 @@ yunohost service add $app --description="Modern GPS tracking platform" --log="/v
 #=================================================
 ynh_script_progression --message="Updating a configuration file..." --weight=1
 
-ynh_add_config --template="some_config_file" --destination="$install_dir/some_config_file"
+ynh_add_config --template="traccar.xml" --destination="$install_dir/conf/traccar.xml"
 
-chmod 400 "$install_dir/some_config_file"
-chown $app:$app "$install_dir/some_config_file"
+chmod 400 "$install_dir/conf/traccar.xml"
+chown $app:$app "$install_dir/conf/traccar.xml"
 
 #=================================================
 # START SYSTEMD SERVICE
