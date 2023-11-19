@@ -67,7 +67,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "mariadb-server, openjdk-11-jre-headless"
+    packages = "postgresql, openjdk-11-jre-headless"
 
     [resources.database]
-    type = "mysql"
+    type = "postgresql"
