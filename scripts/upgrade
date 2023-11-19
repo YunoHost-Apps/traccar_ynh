@@ -11,6 +11,8 @@ source /usr/share/yunohost/helpers
 
 upgrade_type=$(ynh_check_app_version_changed)
 
+main_domain=$(cat /etc/yunohost/current_host)
+
 #=================================================
 # STOP SYSTEMD SERVICE
 #=================================================

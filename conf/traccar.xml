@@ -18,8 +18,8 @@
 
     -->
 
-    <entry key='database.driver'>com.mysql.cj.jdbc.Driver</entry>
-    <entry key='database.url'>jdbc:mysql://localhost/__DB_NAME__?zeroDateTimeBehavior=round&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;useSSL=false&amp;allowMultiQueries=true&amp;autoReconnect=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8&amp;sessionVariables=sql_mode=''</entry>
+    <entry key='database.driver'>org.postgresql.Driver</entry>
+    <entry key='database.url'>jdbc:postgresql://localhost/__DB_NAME__</entry>
     <entry key='database.user'>__DB_USER__</entry>
     <entry key='database.password'>__DB_PWD__</entry>
 
@@ -34,6 +34,8 @@
     <entry key='mail.smtp.starttls.enable'>false</entry> 
     <entry key='mail.smtp.username'>__APP__</entry> 
     <entry key='mail.smtp.password'>__MAIL_PWD__</entry>
+    <entry key='mail.smtp.from'>__APP__@__MAIN_DOMAIN__</entry>
+
     <!--
     <entry key='ldap.url'>ldap://127.0.0.1</entry>
     <entry key='ldap.port'>389</entry>
