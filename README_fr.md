@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Traccar est un système de suivi GPS open source. Ce référentiel contient un service back-end basé sur Java. Il prend en charge plus de 200 protocoles GPS et plus de 2 000 modèles de dispositifs de suivi GPS.
+Traccar est un système de suivi GPS open source. Il prend en charge plus de 200 protocoles GPS et plus de 2 000 modèles de dispositifs de suivi GPS.
 
 ### Caractéristiques
 
