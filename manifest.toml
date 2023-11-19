@@ -1,0 +1,73 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "traccar"
+name = "Traccar"
+description.en = "GPS tracking platform"
+description.fr = "Plateforme de suivi GPS"
+
+version = "5.9~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "GPL-3.0-Only"
+website = "https://www.traccar.org/"
+demo = "https://www.traccar.org/demo-server/"
+admindoc = "https://www.traccar.org/documentation/"
+code = "https://github.com/traccar/traccar-web"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/traccar/traccar/releases/download/v5.9/traccar-other-5.9.zip"
+        sha256 = "38eb9f5e1fb1e208143827985f08be7cef304e6c97dfd102d93a5cf6577d6b1d"
+        in_subdir = false
+        format = "zip"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+    allow_email = true
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+    api.url = "/api"
+    api.show_tile = false
+    api.allowed = "visitors"
+    api.auth_header = false
+
+    [resources.ports]
+
+    [resources.apt]
+    packages = "mariadb-server, openjdk-11-jre-headless"
+
+    [resources.database]
+    type = "mysql"
