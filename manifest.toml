@@ -12,7 +12,7 @@ version = "5.9~ynh1"
 maintainers = ["eric_G"]
 
 [upstream]
-license = "GPL-3.0-Only"
+license = "GPL-3.0-only"
 website = "https://www.traccar.org/"
 demo = "https://www.traccar.org/demo-server/"
 admindoc = "https://www.traccar.org/documentation/"
