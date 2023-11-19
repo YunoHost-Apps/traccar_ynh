@@ -34,7 +34,7 @@
     <entry key='mail.smtp.starttls.enable'>false</entry> 
     <entry key='mail.smtp.username'>__APP__</entry> 
     <entry key='mail.smtp.password'>__MAIL_PWD__</entry>
-    <entry key='mail.smtp.from'>__APP__@__DOMAIN__</entry>
+    <entry key='mail.smtp.from'>__APP__@__MAIN_DOMAIN__</entry>
 
     <!--
     <entry key='ldap.url'>ldap://127.0.0.1</entry>
