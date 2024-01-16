@@ -49,6 +49,7 @@ ram.runtime = "50M"
         in_subdir = false
         format = "zip"
         autoupdate.strategy = "latest_github_tag"
+        autoupdate.asset = "^traccar-other-.*\.zip$"
 
     [resources.system_user]
     allow_email = true
