@@ -44,8 +44,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/traccar/traccar-web/archive/refs/tags/v5.12.tar.gz"
-        sha256 = "90a811d31af534ba4378e9bf466a86c50e3fd512efd195b201c24e25b036310c"
+        url = "https://github.com/traccar/traccar/releases/download/v5.12/traccar-other-5.12.zip"
+        sha256 = "25a61bea9d46d5c1b263c9a53fbdb2834c0c3ef1c0daa54ae99579c0ab4accdf"
         in_subdir = false
         format = "zip"
         autoupdate.strategy = "latest_github_tag"
