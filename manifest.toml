@@ -16,7 +16,7 @@ license = "GPL-3.0-only"
 website = "https://www.traccar.org/"
 demo = "https://www.traccar.org/demo-server/"
 admindoc = "https://www.traccar.org/documentation/"
-code = "https://github.com/traccar/traccar-web"
+code = "https://github.com/traccar/traccar"
 
 [integration]
 yunohost = ">= 11.2"
@@ -49,6 +49,7 @@ ram.runtime = "50M"
         in_subdir = false
         format = "zip"
         autoupdate.strategy = "latest_github_tag"
+        autoupdate.asset = "^traccar-other-.*\.zip$"
 
     [resources.system_user]
     allow_email = true
