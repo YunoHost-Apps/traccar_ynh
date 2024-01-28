@@ -29,7 +29,7 @@ Traccar est un système de suivi GPS open source. Il prend en charge plus de 200
 - Assistance par e-mail et SMS
 
 
-**Version incluse :** 5.10~ynh1
+**Version incluse :** 5.12~ynh1
 
 **Démo :** https://www.traccar.org/demo-server/
 
@@ -41,7 +41,7 @@ Traccar est un système de suivi GPS open source. Il prend en charge plus de 200
 
 * Site officiel de l’app : <https://www.traccar.org/>
 * Documentation officielle de l’admin : <https://www.traccar.org/documentation/>
-* Dépôt de code officiel de l’app : <https://github.com/traccar/traccar-web>
+* Dépôt de code officiel de l’app : <https://github.com/traccar/traccar>
 * YunoHost Store: <https://apps.yunohost.org/app/traccar>
 * Signaler un bug : <https://github.com/YunoHost-Apps/traccar_ynh/issues>
 

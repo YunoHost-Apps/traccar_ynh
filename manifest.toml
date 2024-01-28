@@ -7,7 +7,7 @@ name = "Traccar"
 description.en = "GPS tracking platform"
 description.fr = "Plateforme de suivi GPS"
 
-version = "5.10~ynh1"
+version = "5.12~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -16,7 +16,7 @@ license = "GPL-3.0-only"
 website = "https://www.traccar.org/"
 demo = "https://www.traccar.org/demo-server/"
 admindoc = "https://www.traccar.org/documentation/"
-code = "https://github.com/traccar/traccar-web"
+code = "https://github.com/traccar/traccar"
 
 [integration]
 yunohost = ">= 11.2"
@@ -44,11 +44,12 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/traccar/traccar/releases/download/v5.10/traccar-other-5.10.zip"
-        sha256 = "5cf39049dba802e8b31d3fa1e2f5b924a525362420636ec97d8310932591831c"
+        url = "https://github.com/traccar/traccar/releases/download/v5.12/traccar-other-5.12.zip"
+        sha256 = "25a61bea9d46d5c1b263c9a53fbdb2834c0c3ef1c0daa54ae99579c0ab4accdf"
         in_subdir = false
         format = "zip"
-        autoupdate.strategy = "latest_github_tag"
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset = "^traccar-other-.*zip$"
 
     [resources.system_user]
     allow_email = true
