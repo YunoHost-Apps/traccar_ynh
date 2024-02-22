@@ -7,7 +7,7 @@ name = "Traccar"
 description.en = "GPS tracking platform"
 description.fr = "Plateforme de suivi GPS"
 
-version = "5.12~ynh1"
+version = "5.12~ynh2"
 
 maintainers = []
 
