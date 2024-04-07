@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Traccar with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traccar)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Traccar quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -29,7 +29,7 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 - Email and SMS support
 
 
-**Shipped version:** 5.12~ynh1
+**Shipped version:** 6.0~ynh1
 
 **Demo:** <https://www.traccar.org/demo-server/>
 
