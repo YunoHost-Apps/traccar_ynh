@@ -45,7 +45,7 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         url = "https://github.com/traccar/traccar/releases/download/v6.0/traccar-other-6.0.zip"
-        sha256 = "face8357aed406f459f1bc56a80be1c53d5a6a08416a56a5fb80401ebebb8ce9"
+        sha256 = "d6813dec896a466744006543387e5615244fa9ce2f0674fbb06c4864a0bac0a6"
         in_subdir = false
         format = "zip"
         autoupdate.strategy = "latest_github_release"
