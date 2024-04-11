@@ -29,7 +29,7 @@ Traccar est un système de suivi GPS open source. Il prend en charge plus de 200
 - Assistance par e-mail et SMS
 
 
-**Version incluse :** 6.0~ynh1
+**Version incluse :** 6.1~ynh1
 
 **Démo :** <https://www.traccar.org/demo-server/>
 
