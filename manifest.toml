@@ -7,7 +7,7 @@ name = "Traccar"
 description.en = "GPS tracking platform"
 description.fr = "Plateforme de suivi GPS"
 
-version = "6.1~ynh1"
+version = "6.2~ynh1"
 
 maintainers = []
 
@@ -44,8 +44,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/traccar/traccar/releases/download/v6.1/traccar-other-6.1.zip"
-        sha256 = "9dabe12b8c0a584d8ec0e3cc507cd37a3b7180d4042c64fc513e4497ec3d654b"
+        url = "https://github.com/traccar/traccar/releases/download/v6.2/traccar-other-6.2.zip"
+        sha256 = "e31645f3a6aa510265e69e6b6fadcec9babac3104fc969b41f2703de59b8eaaf"
         in_subdir = false
         format = "zip"
         autoupdate.strategy = "latest_github_release"
@@ -69,7 +69,15 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql, openjdk-11-jre-headless"
+    packages = "postgresql"
+
+    packages_from_raw_bash = """
+    if [[ $YNH_DEBIAN_VERSION == "bullseye" ]]; then
+        echo "openjdk-11-jre-headless";
+    elif [[ $YNH_DEBIAN_VERSION == "bookworm" ]]; then
+        echo "openjdk-17-jre-headless";
+    fi
+    """
 
     [resources.database]
     type = "postgresql"

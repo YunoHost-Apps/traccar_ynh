@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Traccar
+# YunoHost 上的 Traccar
 
 [![集成程度](https://dash.yunohost.org/integration/traccar.svg)](https://dash.yunohost.org/appci/app/traccar) ![工作状态](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
 
@@ -29,7 +29,7 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 - Email and SMS support
 
 
-**分发版本：** 6.1~ynh1
+**分发版本：** 6.2~ynh1
 
 **演示：** <https://www.traccar.org/demo-server/>
 
