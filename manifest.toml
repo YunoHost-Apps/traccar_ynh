@@ -19,7 +19,7 @@ admindoc = "https://www.traccar.org/documentation/"
 code = "https://github.com/traccar/traccar"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 11.2.30"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
