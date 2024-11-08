@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Traccar para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/traccar.svg)](https://dash.yunohost.org/appci/app/traccar) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/traccar.svg)](https://ci-apps.yunohost.org/ci/apps/traccar/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
 
 [![Instalar Traccar con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traccar)
 
@@ -29,7 +29,7 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 - Email and SMS support
 
 
-**Versión actual:** 6.2~ynh1
+**Versión actual:** 6.2~ynh2
 
 **Demo:** <https://www.traccar.org/demo-server/>
 
@@ -47,7 +47,7 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/traccar_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/traccar_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
