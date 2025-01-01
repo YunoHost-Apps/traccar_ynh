@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Traccar for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/traccar.svg)](https://ci-apps.yunohost.org/ci/apps/traccar/) ![Working status](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/traccar)](https://ci-apps.yunohost.org/ci/apps/traccar/)
+![Working status](https://apps.yunohost.org/badge/state/traccar)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/traccar)
 
 [![Install Traccar with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traccar)
 
@@ -29,7 +31,7 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 - Email and SMS support
 
 
-**Shipped version:** 6.2~ynh2
+**Shipped version:** 6.5~ynh1
 
 **Demo:** <https://www.traccar.org/demo-server/>
 
