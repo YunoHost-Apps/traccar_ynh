@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Traccar untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/traccar.svg)](https://ci-apps.yunohost.org/ci/apps/traccar/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/traccar)](https://ci-apps.yunohost.org/ci/apps/traccar/)
+![Status kerja](https://apps.yunohost.org/badge/state/traccar)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/traccar)
 
 [![Pasang Traccar dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traccar)
 
@@ -29,7 +31,7 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 - Email and SMS support
 
 
-**Versi terkirim:** 6.2~ynh2
+**Versi terkirim:** 6.5~ynh1
 
 **Demo:** <https://www.traccar.org/demo-server/>
 
