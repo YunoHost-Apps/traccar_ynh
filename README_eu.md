@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Traccar YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/traccar.svg)](https://ci-apps.yunohost.org/ci/apps/traccar/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/traccar)](https://ci-apps.yunohost.org/ci/apps/traccar/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/traccar)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/traccar)
 
 [![Instalatu Traccar YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traccar)
 
@@ -29,7 +31,7 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 - Email and SMS support
 
 
-**Paketatutako bertsioa:** 6.2~ynh2
+**Paketatutako bertsioa:** 6.5~ynh1
 
 **Demoa:** <https://www.traccar.org/demo-server/>
 
