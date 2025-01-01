@@ -69,7 +69,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresqln, openjdk-17-jre-headless"
+    packages = "postgresql, openjdk-17-jre-headless"
 
     [resources.database]
     type = "postgresql"
