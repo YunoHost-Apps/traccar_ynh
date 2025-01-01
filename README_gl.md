@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Traccar para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/traccar.svg)](https://ci-apps.yunohost.org/ci/apps/traccar/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/traccar)](https://ci-apps.yunohost.org/ci/apps/traccar/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/traccar)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/traccar)
 
 [![Instalar Traccar con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traccar)
 

@@ -5,7 +5,9 @@
 
 # Traccar для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/traccar.svg)](https://ci-apps.yunohost.org/ci/apps/traccar/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/traccar)](https://ci-apps.yunohost.org/ci/apps/traccar/)
+![Состояние работы](https://apps.yunohost.org/badge/state/traccar)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/traccar)
 
 [![Установите Traccar с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traccar)
 

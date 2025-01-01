@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Traccar voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/traccar.svg)](https://ci-apps.yunohost.org/ci/apps/traccar/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/traccar.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/traccar.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/traccar)](https://ci-apps.yunohost.org/ci/apps/traccar/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/traccar)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/traccar)
 
 [![Traccar met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traccar)
 
