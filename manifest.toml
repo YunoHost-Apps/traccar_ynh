@@ -19,12 +19,12 @@ admindoc = "https://www.traccar.org/documentation/"
 code = "https://github.com/traccar/traccar"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -69,15 +69,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql"
-
-    packages_from_raw_bash = """
-    if [[ $YNH_DEBIAN_VERSION == "bullseye" ]]; then
-        echo "openjdk-11-jre-headless";
-    elif [[ $YNH_DEBIAN_VERSION == "bookworm" ]]; then
-        echo "openjdk-17-jre-headless";
-    fi
-    """
+    packages = "postgresql, openjdk-17-jre-headless"
 
     [resources.database]
     type = "postgresql"
