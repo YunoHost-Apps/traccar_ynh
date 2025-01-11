@@ -31,7 +31,7 @@ Traccar is an open source GPS tracking system. It supports more than 200 GPS pro
 - Email and SMS support
 
 
-**分发版本：** 6.5~ynh1
+**分发版本：** 6.6~ynh1
 
 **演示：** <https://www.traccar.org/demo-server/>
 
