@@ -7,7 +7,7 @@ name = "Traccar"
 description.en = "GPS tracking platform"
 description.fr = "Plateforme de suivi GPS"
 
-version = "6.5~ynh1"
+version = "6.7.0~ynh1"
 
 maintainers = []
 
@@ -44,8 +44,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/traccar/traccar/releases/download/v6.5/traccar-other-6.5.zip"
-        sha256 = "d1fd7eebd9dcef7878e270f78c9ae5a67dfad2f3456366ccb551d19879b4dce4"
+        url = "https://github.com/traccar/traccar/releases/download/v6.7.0/traccar-other-6.7.0.zip"
+        sha256 = "2ac0932f647b3b8b7ee0f50cae8dac939be80c031739f2af12706d7fc3477799"
         in_subdir = false
         format = "zip"
         autoupdate.strategy = "latest_github_release"
