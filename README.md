@@ -12,7 +12,7 @@ GPS tracking platform
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.traccar.org/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://www.traccar.org/demo-server/)
-[![Version: 6.7.2~ynh1](https://img.shields.io/badge/Version-6.7.2~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/traccar/)
+[![Version: 6.7.3~ynh1](https://img.shields.io/badge/Version-6.7.3~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/traccar/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/traccar"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
