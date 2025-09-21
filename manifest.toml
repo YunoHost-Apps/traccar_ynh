@@ -7,7 +7,7 @@ name = "Traccar"
 description.en = "GPS tracking platform"
 description.fr = "Plateforme de suivi GPS"
 
-version = "6.9.1~ynh1"
+version = "6.10.0~ynh1"
 
 maintainers = []
 
@@ -46,8 +46,8 @@ ram.runtime = "50M"
         [resources.sources.main]
         in_subdir = false
         format = "zip"
-        url = "https://github.com/traccar/traccar/releases/download/v6.9.1/traccar-other-6.9.1.zip"
-        sha256 = "f02a2797ace130a5afa80296bedb39813be4e5c7d87ed27ecc0b3707b415c422"
+        url = "https://github.com/traccar/traccar/releases/download/v6.10.0/traccar-other-6.10.0.zip"
+        sha256 = "386fb275b8fff8276548153cda81a966ebf69294a63f76a92d2c2d5e6b651410"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "^traccar-other-.*zip$"
@@ -70,7 +70,10 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql, openjdk-17-jre-headless"
+    packages = [
+        "postgresql",
+        "openjdk-17-jre-headless\\|openjdk-25-jre-headless",
+    ]
 
     [resources.database]
     type = "postgresql"
