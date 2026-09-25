@@ -51,6 +51,17 @@ ram.runtime = "50M"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "^traccar-other-.*zip$"
+    
+        [resources.sources.jre]
+        amd64.url = "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_linux_hotspot_26.0.2_10.tar.gz"
+        amd64.sha256 = "585c4cce5807ce5677289a123680a8648c84c9afac66727a0e3027298d8e32c7"
+        arm64.url = "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_linux_hotspot_26.0.2_10.tar.gz"
+        arm64.sha256 = "3c689572d2ea7aa3e19db5e5bc4ee41e90b557593d15eefcec179a9b8abfff0e"
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.version_regex = "jdk-(\\d+\\.\\d+\\.\\d+)\\+(.*)"
+        autoupdate.upstream = "https://github.com/adoptium/temurin26-binaries"
+        autoupdate.asset.amd64 = "OpenJDK.*-jre_x64_linux_hotspot_.*\\.tar\\.gz$"
+        autoupdate.asset.arm64 = "OpenJDK.*-jre_aarch64_linux_hotspot_.*\\.tar\\.gz$"
 
     [resources.system_user]
     allow_email = true
@@ -72,7 +83,6 @@ ram.runtime = "50M"
     [resources.apt]
     packages = [
         "postgresql",
-        "openjdk-17-jre-headless\\|openjdk-25-jre-headless",
     ]
 
     [resources.database]

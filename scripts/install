@@ -9,9 +9,9 @@ main_domain=$(cat /etc/yunohost/current_host)
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir/traccar"
 
-chmod +x $install_dir/tracker-server.jar
+ynh_setup_source --dest_dir="$install_dir/jre" --source_id="jre"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -29,7 +29,7 @@ yunohost service add $app --description="Modern GPS tracking platform" --log="/v
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
-ynh_config_add --template="traccar.xml" --destination="$install_dir/conf/traccar.xml"
+ynh_config_add --template="traccar.xml" --destination="$install_dir/traccar/conf/traccar.xml"
 
 #=================================================
 # START SYSTEMD SERVICE

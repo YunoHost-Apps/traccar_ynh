@@ -6,8 +6,9 @@ After=network.target
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__INSTALL_DIR__/
-ExecStart=/usr/bin/java -jar tracker-server.jar __INSTALL_DIR__/conf/traccar.xml
+WorkingDirectory=__INSTALL_DIR__/traccar
+Environment=JAVA_HOME=__INSTALL_DIR__/jre
+ExecStart=__INSTALL_DIR__/jre/bin/java -jar tracker-server.jar conf/traccar.xml
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these
