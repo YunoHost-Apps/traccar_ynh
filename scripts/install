@@ -13,6 +13,8 @@ ynh_setup_source --dest_dir="$install_dir/traccar"
 
 ynh_setup_source --dest_dir="$install_dir/jre" --source_id="jre"
 
+chown -R $app:$app $install_dir
+
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================

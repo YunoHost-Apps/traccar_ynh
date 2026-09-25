@@ -27,6 +27,8 @@ ynh_script_progression "Upgrading source files..."
 ynh_setup_source --dest_dir="$install_dir/traccar" --full_replace --keep="conf/traccar.xml"
 ynh_setup_source --dest_dir="$install_dir/jre" --source_id="jre"
 
+chown -R $app:$app $install_dir
+
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
