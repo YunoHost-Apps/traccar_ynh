@@ -14,11 +14,20 @@ ynh_systemctl --service=$app --action="stop"
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
+if ynh_app_upgrading_from_version_before 6.15.3~ynh1; then
+    ynh_script_progression "Fixing up directory structure..."
+    mkdir $install_dir/traccar
+    pushd $install_dir
+      ls | grep -v traccar | xargs mv -t traccar
+    popd
+fi
+
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="conf/traccar.xml"
+ynh_setup_source --dest_dir="$install_dir/traccar" --full_replace --keep="conf/traccar.xml"
+ynh_setup_source --dest_dir="$install_dir/jre" --source_id="jre"
 
-chmod +x $install_dir/tracker-server.jar
+chown -R $app:$app $install_dir
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
