@@ -18,7 +18,9 @@ if ynh_app_upgrading_from_version_before 6.15.3~ynh1; then
     ynh_script_progression "Fixing up directory structure..."
     mkdir $install_dir/traccar
     pushd $install_dir
+      shopt -s extglob
       mv !(traccar) traccar
+      shopt -u extglob
     popd
 fi
 
